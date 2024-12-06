@@ -32,13 +32,13 @@ label {
 }
 
 input, textarea, select {
+    box-sizing: border-box;
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 0.5px solid #4944446e;
     border-radius: 5px;
     background-color: #1b1f1c18;
-    box-sizing: border-box;
     font-size: 15px;
     
 }
