@@ -4,18 +4,20 @@
     <title>Online Registration Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="background-color: black;">
+    
     <div class="container">
         <h1>Online Registration Form</h1>
+        <h6>by Rohith HT</h6>
         <form id="registrationForm">
             <label for="fullName">Full Name:</label>
-            <input type="text" id="fullName" name="fullName" required>
+            <input type="text" id="fullName" name="fullName" required placeholder="Enter a valid FullName">
 
             <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName" required>
+            <input type="text" id="lastName" name="lastName" required placeholder="Enter a valid lastName">
 
             <label for="phoneNumber">Phone Number:</label>
-            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Enter a valid phoneNumber">
 
             <label for="gender">Gender:</label>
             <select id="gender" name="gender" required>
@@ -26,8 +28,9 @@
 
             <label for="message">Additional Message:</label>
             <textarea id="message" name="message"></textarea>
-
-            <button type="submit">Submit</button>
+              <center>
+            <button  type="submit">Submit</button>
+            </center>
         </form>
     </div>
     <script src="javascript.js"></script>
