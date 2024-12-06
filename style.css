@@ -1,34 +1,54 @@
 .container {
-    width: 400px;
-    margin: 0 auto;
+    max-width: 500px;
+    margin: 50px auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 5px;
+    background-color: #ffffff;
+
 }
 
 h1 {
     text-align: center;
-    color: #f38b03
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h6 {
+    text-align: right;
+    color: lightslategray;
+    padding-right: 40px;
+    font-style: oblique;
 }
 
 label {
     display: block;
     margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.616);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 input, textarea, select {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 0.5px solid #4944446e;
     border-radius: 5px;
+    background-color: #1b1f1c18;
+    box-sizing: border-box;
+    font-size: 15px;
+    
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
+    background-color: #3da116;
+    color: rgb(255, 255, 255);
+    padding: 15px 40px;
     border: none;
-    border-radius: 5px;
+    border-radius: 100px;
     cursor: pointer;
+    font-size: 16px;
 }
