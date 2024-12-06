@@ -2,10 +2,17 @@
     max-width: 500px;
     margin: 50px auto;
     padding: 20px;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: white;
+    border: 3px solid #0f519c;
+    border-radius: 6px;
+    background-color: #ffffff;
 
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/modern-blue-pattern-design_1035-8846.jpg?semt=ais_hybrid');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -32,19 +39,19 @@ label {
 }
 
 input, textarea, select {
-    box-sizing: border-box;
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 0.5px solid #4944446e;
     border-radius: 5px;
     background-color: #1b1f1c18;
+    box-sizing: border-box;
     font-size: 15px;
     
 }
 
 button {
-    background-color: #3da116;
+    background-color: #047ea3;
     color: rgb(255, 255, 255);
     padding: 15px 40px;
     border: none;
